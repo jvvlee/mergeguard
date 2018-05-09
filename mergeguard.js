@@ -5,3 +5,5 @@ $(".merge-pr .btn-group-merge button.js-merge-commit-button").on('click', functi
     return false
   }
 })
+
+// Lingering problem?
