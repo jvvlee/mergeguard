@@ -1,7 +1,7 @@
-$(".btn-group-merge button").on('click', function(e) {
+$(".merge-pr .btn-group-merge button.js-merge-commit-button").on('click', function(e) {
   if (confirm("You're about to merge to master. Are you going to deploy to production within the next 5 minutes?")) {
-    alert("Don't leave if you're just doing a staging deploy!")
   } else {
     e.preventDefault();
+    return false
   }
 })
